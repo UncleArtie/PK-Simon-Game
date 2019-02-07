@@ -1,0 +1,134 @@
+body {
+    background: black;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.simonBoard {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 600px;
+    height: 600px;
+    border: 5px black solid;
+    border-radius: 600px;
+}
+
+.pad {
+    margin: 0;
+    float: left;
+    position: relative;
+    width: 295px;
+    height: 295px;
+    border: 3px black solid;
+    z-index: 8;
+}
+
+.green {
+    background: green;
+    border-radius: 300px 0 0 0;
+}
+
+.green-active {
+    background: lightgreen !important;
+}
+
+.red {
+    background: red;
+    border-radius: 0 300px 0 0;
+}
+
+.red-active {
+    background: lightcoral !important;
+}
+
+.yellow {
+    background: yellow;
+    border-radius: 0 0 0 300px;
+}
+
+.yellow-active {
+    background: lightyellow !important;
+}
+
+.blue {
+    background: blue;
+    border-radius: 0 0 300px 0;
+}
+
+.blue-active {
+    background: lightblue !important;
+}
+
+.board-controls {
+    width: 245px;
+    height: 245px;
+    margin-left: 170px;
+    margin-top: 170px;
+    background-color: white;
+    border: 10px black solid;
+    border-radius: 150px;
+    position: absolute;
+    z-index: 10;
+}
+
+.title {
+    margin-top: 30px;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.display {
+    border: 2px black solid;
+    border-radius: 10px;
+    color: white;
+    width: 60px;
+    height: 45px;
+    font-size: 35px;
+    background-color: grey;
+}
+
+.start,
+.strict {
+    margin: 0px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 63px;
+    height: 60px;
+    border: 2px black solid;
+    border-radius: 30px;
+    color: black;
+    font-size: 14px;
+    line-height: 55px;
+}
+
+.start {
+    background-color: red;
+}
+
+.strict {
+    background-color: yellow;
+}
+
+.outer-switch {
+    width: 60px;
+    height: 30px;
+    border: 1px black solid;
+    background-color: black;
+}
+
+.inner-switch {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+}
